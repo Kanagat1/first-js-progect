@@ -1,2 +1,5 @@
-document.body.style.background = "lightblue"
-console.log(document.body);
+function greet(username) {
+     return `Привет, ${username}!`;
+}
+
+ console.log(greet("Kanagat"));
